@@ -7,4 +7,4 @@
 2. task1.py - задача №1
 3. task2.py - задача №2
 
-файлы recipes.txt и task1.py должны находиться в одной папке
+файлы recipes.txt, task1.py, task2.py должны находиться в одной папке
