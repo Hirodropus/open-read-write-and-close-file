@@ -103,13 +103,13 @@ def main():
     # Выводим список покупок
     shopping_list = get_shop_list_by_dishes(selected_dishes, number_person, cook_book)
 
-    print(f"\nСписок инг для {number_person} персон:")
+    print(f"\nСписок ингредиентов для {number_person} персон:")
     print(f"Выбранные блюда: {', '.join(selected_dishes)}")
     print("{")
     for item, details in shopping_list.items():
         print(f"  '{item}': {{'measure': '{details['measure']}', 'quantity': {details['quantity']}}},")
     print("}")
 
-
+1
 if __name__ == '__main__':
     main()
